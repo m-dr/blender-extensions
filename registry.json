@@ -19,6 +19,26 @@
       ],
       "archive_url": "https://github.com/m-dr/blender-sync-workspaces/releases/download/v1.15.0/synchronize_workspaces-1.15.0.zip",
       "website": "https://github.com/m-dr/blender-sync-workspaces"
+    },
+    {
+      "id": "frame_range_manager",
+      "schema_version": "1.0.0",
+      "name": "Frame Range Manager",
+      "tagline": "Store, manage, edit, and restore named frame ranges shared across all scenes",
+      "version": "0.1.0",
+      "type": "add-on",
+      "blender_version_min": "4.2.0",
+      "maintainer": "MD <m-dr>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "tags": [
+        "Animation",
+        "Sequencer",
+        "User Interface"
+      ],
+      "archive_url": "https://github.com/m-dr/blender-frame-range-manager/releases/download/v0.1.0/frame_range_manager-0.1.0.zip",
+      "website": "https://github.com/m-dr/blender-frame-range-manager"
     }
   ]
 }
