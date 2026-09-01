@@ -39,6 +39,25 @@
       ],
       "archive_url": "https://github.com/m-dr/blender-frame-range-manager/releases/download/v0.1.1/frame_range_manager-0.1.1.zip",
       "website": "https://github.com/m-dr/blender-frame-range-manager"
+    },
+    {
+      "id": "fcpxml_import",
+      "schema_version": "1.0.0",
+      "name": "FCPXML & XMEML Importer",
+      "tagline": "Imports FCP7 XML (.xmeml) and FCPX XML (.fcpxml) files preserving multi-track structure, retiming, markers, audio and text",
+      "version": "1.2.0",
+      "type": "add-on",
+      "blender_version_min": "5.2.0",
+      "maintainer": "tintwotin, Omniscye, Antigravity, m-dr",
+      "license": [
+        "SPDX:GPL-2.0-or-later"
+      ],
+      "tags": [
+        "Import-Export",
+        "Sequencer"
+      ],
+      "archive_url": "https://github.com/m-dr/fcpxml_import/releases/download/v1.2.0/fcpxml_import-1.2.0.zip",
+      "website": "https://github.com/m-dr/fcpxml_import"
     }
   ]
 }
