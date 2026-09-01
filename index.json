@@ -64,6 +64,26 @@
         "Sequencer"
       ],
       "website": "https://github.com/m-dr/blender-fcpxml-import"
+    },
+    {
+      "id": "wiggle_fork",
+      "schema_version": "1.0.0",
+      "name": "Wiggle Fork",
+      "tagline": "Adds procedural noise modifiers to delta transforms (Blender 5.0+ Slotted Actions compatible)",
+      "version": "2.2.0",
+      "type": "add-on",
+      "blender_version_min": "5.0.0",
+      "archive_url": "https://github.com/m-dr/blender-wiggle-fork/releases/download/v2.2.0/wiggle_fork-2.2.0.zip",
+      "archive_hash": "sha256:239a7f27770136980c197b4c5d430f666a9621679ed3cb7515385b4ea4b9f086",
+      "archive_size": 2245,
+      "maintainer": "William Landgren (Fork maintained by m-dr)",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "tags": [
+        "Animation"
+      ],
+      "website": "https://github.com/m-dr/blender-wiggle-fork"
     }
   ],
   "blocklist": []
