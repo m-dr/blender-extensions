@@ -60,6 +60,25 @@
       "website": "https://github.com/m-dr/blender-fcpxml-import"
     },
     {
+      "id": "object_wiggle",
+      "schema_version": "1.0.0",
+      "name": "Object Wiggle",
+      "tagline": "Procedural noise transforms for objects with multi-object editing and Blender 5.2 slotted action support",
+      "version": "0.1.0",
+      "type": "add-on",
+      "blender_version_min": "5.2.0",
+      "maintainer": "m-dr",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "tags": [
+        "Animation",
+        "Object"
+      ],
+      "archive_url": "https://github.com/m-dr/blender-object-wiggle/releases/download/v0.1.0/object_wiggle-0.1.0.zip",
+      "website": "https://github.com/m-dr/blender-object-wiggle"
+    },
+    {
       "id": "drcl_md",
       "schema_version": "1.0.0",
       "name": "DRCL (MD Mod)",
