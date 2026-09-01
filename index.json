@@ -95,8 +95,8 @@
       "type": "add-on",
       "blender_version_min": "5.2.0",
       "archive_url": "https://github.com/m-dr/blender-noise-wiggler/releases/download/v0.1.2/noise_wiggler-0.1.2.zip",
-      "archive_hash": "sha256:c1b1c3efed87da821f40a4fa55aab0951831c6c582f69832d63925aba7c8d30f",
-      "archive_size": 12711,
+      "archive_hash": "sha256:7853ade8bc17aa32d1599c52e3026c02dd23573cc368c0b66ed2284bcefd9a91",
+      "archive_size": 12712,
       "maintainer": "m-dr",
       "license": [
         "SPDX:GPL-3.0-or-later"
