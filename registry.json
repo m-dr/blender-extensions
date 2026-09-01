@@ -1,0 +1,24 @@
+{
+  "base_url": "https://m-dr.github.io/blender-extensions",
+  "extensions": [
+    {
+      "id": "synchronize_workspaces",
+      "schema_version": "1.0.0",
+      "name": "Synchronize Workspaces",
+      "tagline": "Synchronize 3D views between workspaces",
+      "version": "1.15.0",
+      "type": "add-on",
+      "blender_version_min": "4.2.0",
+      "maintainer": "MultLabs / m-dr",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "tags": [
+        "3D View",
+        "User Interface"
+      ],
+      "package_file": "synchronize_workspaces-1.15.0.zip",
+      "website": "https://github.com/m-dr/blender-sync-workspaces"
+    }
+  ]
+}
