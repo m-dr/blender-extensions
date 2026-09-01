@@ -2,25 +2,25 @@
   "version": "1.0.0",
   "data": [
     {
-      "id": "synchronize_workspaces",
+      "id": "fcpxml_import",
       "schema_version": "1.0.0",
-      "name": "Synchronize Workspaces",
-      "tagline": "Synchronize 3D views between workspaces",
-      "version": "1.15.0",
+      "name": "FCPXML & XMEML Importer",
+      "tagline": "Imports FCP7 XML (.xmeml) and FCPX XML (.fcpxml) files preserving multi-track structure, retiming, markers, audio and text",
+      "version": "1.2.0",
       "type": "add-on",
-      "blender_version_min": "4.2.0",
-      "archive_url": "https://github.com/m-dr/blender-sync-workspaces/releases/download/v1.15.0/synchronize_workspaces-1.15.0.zip",
-      "archive_hash": "sha256:e39ca86e60361595a0915d81c99fffd94b4f8e70d6a180f592fbe9359e67b7f1",
-      "archive_size": 16727,
-      "maintainer": "MultLabs / m-dr",
+      "blender_version_min": "5.2.0",
+      "maintainer": "tintwotin, Omniscye, Antigravity, m-dr",
       "license": [
-        "SPDX:GPL-3.0-or-later"
+        "SPDX:GPL-2.0-or-later"
       ],
       "tags": [
-        "3D View",
-        "User Interface"
+        "Import-Export",
+        "Sequencer"
       ],
-      "website": "https://github.com/m-dr/blender-sync-workspaces"
+      "archive_url": "https://github.com/m-dr/blender-fcpxml-import/releases/download/v1.2.0/fcpxml_import-1.2.0.zip",
+      "archive_size": 21271,
+      "archive_hash": "sha256:093407694ca2f167f71c964fefbdd67c267465e85f0bb1a17626fa53dacf1363",
+      "website": "https://github.com/m-dr/fcpxml_import"
     },
     {
       "id": "frame_range_manager",
@@ -30,9 +30,6 @@
       "version": "0.1.1",
       "type": "add-on",
       "blender_version_min": "4.2.0",
-      "archive_url": "https://github.com/m-dr/blender-frame-range-manager/releases/download/v0.1.1/frame_range_manager-0.1.1.zip",
-      "archive_hash": "sha256:5259661f41b547e13f0e1aa1eab981c27ed45e914cd57f58b426c5d3fd6e9a7d",
-      "archive_size": 3223,
       "maintainer": "MD <m-dr>",
       "license": [
         "SPDX:GPL-3.0-or-later"
@@ -42,49 +39,10 @@
         "Sequencer",
         "User Interface"
       ],
+      "archive_url": "https://github.com/m-dr/blender-frame-range-manager/releases/download/v0.1.1/frame_range_manager-0.1.1.zip",
+      "archive_size": 3223,
+      "archive_hash": "sha256:5259661f41b547e13f0e1aa1eab981c27ed45e914cd57f58b426c5d3fd6e9a7d",
       "website": "https://github.com/m-dr/blender-frame-range-manager"
-    },
-    {
-      "id": "fcpxml_import",
-      "schema_version": "1.0.0",
-      "name": "FCPXML & XMEML Importer",
-      "tagline": "Imports FCP7 XML (.xmeml) and FCPX XML (.fcpxml) files preserving multi-track structure, retiming, markers, audio and text",
-      "version": "1.2.0",
-      "type": "add-on",
-      "blender_version_min": "5.2.0",
-      "archive_url": "https://github.com/m-dr/blender-fcpxml-import/releases/download/v1.2.0/fcpxml_import-1.2.0.zip",
-      "archive_hash": "sha256:093407694ca2f167f71c964fefbdd67c267465e85f0bb1a17626fa53dacf1363",
-      "archive_size": 21271,
-      "maintainer": "tintwotin, Omniscye, Antigravity, m-dr",
-      "license": [
-        "SPDX:GPL-2.0-or-later"
-      ],
-      "tags": [
-        "Import-Export",
-        "Sequencer"
-      ],
-      "website": "https://github.com/m-dr/blender-fcpxml-import"
-    },
-    {
-      "id": "object_wiggle",
-      "schema_version": "1.0.0",
-      "name": "Object Wiggle",
-      "tagline": "Procedural noise transforms for objects with multi-object editing and Blender 5.2 slotted action support",
-      "version": "0.1.4",
-      "type": "add-on",
-      "blender_version_min": "5.2.0",
-      "archive_url": "https://github.com/m-dr/blender-object-wiggle/releases/download/v0.1.4/object_wiggle-0.1.4.zip",
-      "archive_hash": "sha256:ac4832c2216b180175ce3ade29edfe9977b54b0919e4b327037fa27ff3221cde",
-      "archive_size": 8484,
-      "maintainer": "m-dr",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "tags": [
-        "Animation",
-        "Object"
-      ],
-      "website": "https://github.com/m-dr/blender-object-wiggle"
     },
     {
       "id": "noise_wiggler",
@@ -94,9 +52,6 @@
       "version": "0.1.3",
       "type": "add-on",
       "blender_version_min": "5.2.0",
-      "archive_url": "https://github.com/m-dr/blender-noise-wiggler/releases/download/v0.1.3/noise_wiggler-0.1.3.zip",
-      "archive_hash": "sha256:fe401824c150201dbc159ee83f69b3453a418cd842515a305876cb391a8c97cb",
-      "archive_size": 12712,
       "maintainer": "m-dr",
       "license": [
         "SPDX:GPL-3.0-or-later"
@@ -106,7 +61,52 @@
         "Object",
         "Rigging"
       ],
+      "archive_url": "https://github.com/m-dr/blender-noise-wiggler/releases/download/v0.1.3/noise_wiggler-0.1.3.zip",
+      "archive_size": 12712,
+      "archive_hash": "sha256:fe401824c150201dbc159ee83f69b3453a418cd842515a305876cb391a8c97cb",
       "website": "https://github.com/m-dr/blender-noise-wiggler"
+    },
+    {
+      "id": "object_wiggle",
+      "schema_version": "1.0.0",
+      "name": "Object Wiggle",
+      "tagline": "Procedural noise transforms for objects with seamless loops, frame ranges, spatial offsets, multi-object editing and Blender 5.2 slotted action support",
+      "version": "0.1.4",
+      "type": "add-on",
+      "blender_version_min": "5.2.0",
+      "maintainer": "m-dr",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "tags": [
+        "Animation",
+        "Object"
+      ],
+      "archive_url": "https://github.com/m-dr/blender-object-wiggle/releases/download/v0.1.4/object_wiggle-0.1.4.zip",
+      "archive_size": 8484,
+      "archive_hash": "sha256:ac4832c2216b180175ce3ade29edfe9977b54b0919e4b327037fa27ff3221cde",
+      "website": "https://github.com/m-dr/blender-object-wiggle"
+    },
+    {
+      "id": "synchronize_workspaces",
+      "schema_version": "1.0.0",
+      "name": "Synchronize Workspaces",
+      "tagline": "Synchronize 3D views between workspaces",
+      "version": "1.15.0",
+      "type": "add-on",
+      "blender_version_min": "4.2.0",
+      "maintainer": "Michael Soluyanov <to@multlabs.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "tags": [
+        "3D View",
+        "User Interface"
+      ],
+      "archive_url": "https://github.com/m-dr/blender-sync-workspaces/releases/download/v1.15.0/synchronize_workspaces-1.15.0.zip",
+      "archive_size": 16727,
+      "archive_hash": "sha256:e39ca86e60361595a0915d81c99fffd94b4f8e70d6a180f592fbe9359e67b7f1",
+      "website": ""
     },
     {
       "id": "drcl_md",
@@ -116,36 +116,14 @@
       "version": "1.0.0",
       "type": "theme",
       "blender_version_min": "5.2.0",
-      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.0.0/drcl_md-1.0.0.zip",
-      "archive_hash": "sha256:de118e9c006c040980d4024985b82aa2de002fcc674681a50df437e952c0dc4a",
+      "maintainer": "MD <m-dr>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "tags": [],
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.1.0/drcl_md-1.0.0.zip",
       "archive_size": 5200,
-      "maintainer": "MD <m-dr>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "tags": [
-        "Theme"
-      ],
-      "website": "https://github.com/m-dr/blender-themes"
-    },
-    {
-      "id": "midnight_md",
-      "schema_version": "1.0.0",
-      "name": "Midnight (MD Mod)",
-      "tagline": "Deep midnight blue dark theme tuned for Blender 5.2+ (based on Midnight by kame404)",
-      "version": "1.0.0",
-      "type": "theme",
-      "blender_version_min": "5.2.0",
-      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.0.0/midnight_md-1.0.0.zip",
-      "archive_hash": "sha256:3634b9972842911711488a1724a2c8261bacb4e9c6dccec80da856754ec00032",
-      "archive_size": 5601,
-      "maintainer": "MD <m-dr>",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "tags": [
-        "Theme"
-      ],
+      "archive_hash": "sha256:de118e9c006c040980d4024985b82aa2de002fcc674681a50df437e952c0dc4a",
       "website": "https://github.com/m-dr/blender-themes"
     },
     {
@@ -156,16 +134,32 @@
       "version": "1.0.0",
       "type": "theme",
       "blender_version_min": "5.2.0",
-      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.1.0/metaseq_md-1.0.0.zip",
-      "archive_hash": "sha256:6fd8ddce716e9cd3ce6f0b18531b22ac3ba3de868b83c56f04147041de41de98",
-      "archive_size": 5570,
       "maintainer": "MD <m-dr>",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "tags": [
-        "Theme"
+      "tags": [],
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.1.0/metaseq_md-1.0.0.zip",
+      "archive_size": 5570,
+      "archive_hash": "sha256:6fd8ddce716e9cd3ce6f0b18531b22ac3ba3de868b83c56f04147041de41de98",
+      "website": "https://github.com/m-dr/blender-themes"
+    },
+    {
+      "id": "midnight_md",
+      "schema_version": "1.0.0",
+      "name": "Midnight (MD Mod)",
+      "tagline": "Deep midnight blue dark theme tuned for Blender 5.2+ (based on Midnight by kame404)",
+      "version": "1.0.0",
+      "type": "theme",
+      "blender_version_min": "5.2.0",
+      "maintainer": "MD <m-dr>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
       ],
+      "tags": [],
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.1.0/midnight_md-1.0.0.zip",
+      "archive_size": 5601,
+      "archive_hash": "sha256:3634b9972842911711488a1724a2c8261bacb4e9c6dccec80da856754ec00032",
       "website": "https://github.com/m-dr/blender-themes"
     }
   ],

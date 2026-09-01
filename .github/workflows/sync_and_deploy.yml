@@ -1,13 +1,17 @@
-name: Deploy Blender Extension Repository
+name: Sync Sources and Deploy Extensions
 
 on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  repository_dispatch:
+    types: [blender_extension_published]
   push:
     branches:
       - main
-  workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -16,7 +20,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  sync-and-deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -24,14 +28,25 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Rebuild index.json catalog
-        run: python build_repo.py
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Sync Tracked Sources & Build Catalog
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python sync_catalog.py --commit --push
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

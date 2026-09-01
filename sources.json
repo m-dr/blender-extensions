@@ -1,0 +1,17 @@
+{
+  "github_users": [
+    "m-dr"
+  ],
+  "repo_pattern": "blender-*",
+  "exclude_repos": [
+    "m-dr/blender-extensions"
+  ],
+  "explicit_repos": [
+    "m-dr/blender-sync-workspaces",
+    "m-dr/blender-frame-range-manager",
+    "m-dr/blender-fcpxml-import",
+    "m-dr/blender-object-wiggle",
+    "m-dr/blender-noise-wiggler",
+    "m-dr/blender-themes"
+  ]
+}
