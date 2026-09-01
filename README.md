@@ -22,5 +22,3 @@ This registry operates as a pure metadata catalog:
 * **Add-ons**: Downloaded directly from their individual GitHub Releases (zero storage bloat).
 * **Themes & Presets**: Can be hosted directly in `packages/` if desired.
 * **Large AI Packages**: Supported via Cloudflare R2 or direct CDN links.
-
-See [AGENTS.md](AGENTS.md) for full instructions on adding new extensions.
