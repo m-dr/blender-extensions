@@ -64,7 +64,7 @@
       "schema_version": "1.0.0",
       "name": "Object Wiggle",
       "tagline": "Procedural noise transforms for objects with multi-object editing and Blender 5.2 slotted action support",
-      "version": "0.1.0",
+      "version": "0.1.4",
       "type": "add-on",
       "blender_version_min": "5.2.0",
       "maintainer": "m-dr",
@@ -75,8 +75,28 @@
         "Animation",
         "Object"
       ],
-      "archive_url": "https://github.com/m-dr/blender-object-wiggle/releases/download/v0.1.0/object_wiggle-0.1.0.zip",
+      "archive_url": "https://github.com/m-dr/blender-object-wiggle/releases/download/v0.1.4/object_wiggle-0.1.4.zip",
       "website": "https://github.com/m-dr/blender-object-wiggle"
+    },
+    {
+      "id": "noise_wiggler",
+      "schema_version": "1.0.0",
+      "name": "Noise Wiggler",
+      "tagline": "Unified procedural noise animation for objects and armatures with spatial wave offsets, hierarchy curves, and seamless looping",
+      "version": "0.1.2",
+      "type": "add-on",
+      "blender_version_min": "5.2.0",
+      "maintainer": "m-dr",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "tags": [
+        "Animation",
+        "Object",
+        "Rigging"
+      ],
+      "archive_url": "https://github.com/m-dr/blender-noise-wiggler/releases/download/v0.1.2/noise_wiggler-0.1.2.zip",
+      "website": "https://github.com/m-dr/blender-noise-wiggler"
     },
     {
       "id": "drcl_md",
