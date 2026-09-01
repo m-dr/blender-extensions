@@ -52,7 +52,7 @@
       "version": "1.2.0",
       "type": "add-on",
       "blender_version_min": "5.2.0",
-      "archive_url": "https://github.com/m-dr/fcpxml_import/releases/download/v1.2.0/fcpxml_import-1.2.0.zip",
+      "archive_url": "https://github.com/m-dr/blender-fcpxml-import/releases/download/v1.2.0/fcpxml_import-1.2.0.zip",
       "archive_hash": "sha256:093407694ca2f167f71c964fefbdd67c267465e85f0bb1a17626fa53dacf1363",
       "archive_size": 21271,
       "maintainer": "tintwotin, Omniscye, Antigravity, m-dr",
@@ -63,7 +63,7 @@
         "Import-Export",
         "Sequencer"
       ],
-      "website": "https://github.com/m-dr/fcpxml_import"
+      "website": "https://github.com/m-dr/blender-fcpxml-import"
     }
   ],
   "blocklist": []

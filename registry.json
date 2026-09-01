@@ -56,8 +56,8 @@
         "Import-Export",
         "Sequencer"
       ],
-      "archive_url": "https://github.com/m-dr/fcpxml_import/releases/download/v1.2.0/fcpxml_import-1.2.0.zip",
-      "website": "https://github.com/m-dr/fcpxml_import"
+      "archive_url": "https://github.com/m-dr/blender-fcpxml-import/releases/download/v1.2.0/fcpxml_import-1.2.0.zip",
+      "website": "https://github.com/m-dr/blender-fcpxml-import"
     }
   ]
 }
