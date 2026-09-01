@@ -64,6 +64,46 @@
         "Sequencer"
       ],
       "website": "https://github.com/m-dr/blender-fcpxml-import"
+    },
+    {
+      "id": "drcl_md",
+      "schema_version": "1.0.0",
+      "name": "DRCL (MD Mod)",
+      "tagline": "Dracula-inspired dark theme tuned for Blender 5.2+ (based on DRCL by 1D_Inc / Paul Kotelevets)",
+      "version": "1.0.0",
+      "type": "theme",
+      "blender_version_min": "5.2.0",
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.0.0/drcl_md-1.0.0.zip",
+      "archive_hash": "sha256:de118e9c006c040980d4024985b82aa2de002fcc674681a50df437e952c0dc4a",
+      "archive_size": 5200,
+      "maintainer": "MD <m-dr>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "tags": [
+        "Theme"
+      ],
+      "website": "https://github.com/m-dr/blender-themes"
+    },
+    {
+      "id": "midnight_md",
+      "schema_version": "1.0.0",
+      "name": "Midnight (MD Mod)",
+      "tagline": "Deep midnight blue dark theme tuned for Blender 5.2+ (based on Midnight by kame404)",
+      "version": "1.0.0",
+      "type": "theme",
+      "blender_version_min": "5.2.0",
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.0.0/midnight_md-1.0.0.zip",
+      "archive_hash": "sha256:3634b9972842911711488a1724a2c8261bacb4e9c6dccec80da856754ec00032",
+      "archive_size": 5601,
+      "maintainer": "MD <m-dr>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "tags": [
+        "Theme"
+      ],
+      "website": "https://github.com/m-dr/blender-themes"
     }
   ],
   "blocklist": []
