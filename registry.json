@@ -94,6 +94,24 @@
       ],
       "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.0.0/midnight_md-1.0.0.zip",
       "website": "https://github.com/m-dr/blender-themes"
+    },
+    {
+      "id": "metaseq_md",
+      "schema_version": "1.0.0",
+      "name": "Metasequoia (MD Mod)",
+      "tagline": "Metasequoia-inspired light neutral grey theme tuned for Blender 5.2+",
+      "version": "1.0.0",
+      "type": "theme",
+      "blender_version_min": "5.2.0",
+      "maintainer": "MD <m-dr>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "tags": [
+        "Theme"
+      ],
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.1.0/metaseq_md-1.0.0.zip",
+      "website": "https://github.com/m-dr/blender-themes"
     }
   ]
 }
