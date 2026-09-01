@@ -114,8 +114,8 @@
       "type": "theme",
       "blender_version_min": "5.2.0",
       "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.1.0/metaseq_md-1.0.0.zip",
-      "archive_hash": "sha256:2d5d0c60dce274c54d1bd09fc84b0d28d8dbbd3496689ab34aeb3dba45163d3e",
-      "archive_size": 5549,
+      "archive_hash": "sha256:6010c8457dfb65820e65987869fffb7d407c2c22dd30ba29d901ad03880ae0c2",
+      "archive_size": 5570,
       "maintainer": "MD <m-dr>",
       "license": [
         "SPDX:GPL-3.0-or-later"
