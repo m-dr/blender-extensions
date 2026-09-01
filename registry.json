@@ -58,24 +58,6 @@
       ],
       "archive_url": "https://github.com/m-dr/blender-fcpxml-import/releases/download/v1.2.0/fcpxml_import-1.2.0.zip",
       "website": "https://github.com/m-dr/blender-fcpxml-import"
-    },
-    {
-      "id": "wiggle_fork",
-      "schema_version": "1.0.0",
-      "name": "Wiggle Fork",
-      "tagline": "Adds procedural noise modifiers to delta transforms (Blender 5.0+ Slotted Actions compatible)",
-      "version": "2.2.0",
-      "type": "add-on",
-      "blender_version_min": "5.0.0",
-      "maintainer": "William Landgren (Fork maintained by m-dr)",
-      "license": [
-        "SPDX:GPL-3.0-or-later"
-      ],
-      "tags": [
-        "Animation"
-      ],
-      "archive_url": "https://github.com/m-dr/blender-wiggle-fork/releases/download/v2.2.0/wiggle_fork-2.2.0.zip",
-      "website": "https://github.com/m-dr/blender-wiggle-fork"
     }
   ]
 }
