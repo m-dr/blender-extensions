@@ -1,32 +1,26 @@
 # Blender Extension Repository (Registry Hub)
 
-A custom, self-hosted extension repository for **Blender 4.2+ / 5.x**.
+A decentralized, self-hosted extension repository for **Blender 4.2+ / 5.x**.
 
-* **Repository URL**: `https://m-dr.github.io/blender-extensions/index.json`
+* **Catalog URL**: `https://m-dr.github.io/blender-extensions/index.json`
 
 ---
 
-## How to Add this Repository in Blender
+## How to Connect to Blender
 
-1. Open Blender.
-2. Go to **Edit > Preferences > Get Extensions (or Add-ons)**.
-3. Click the **Repositories** dropdown or button.
-4. Click **+ (Add Repository)**:
+1. Open Blender $\rightarrow$ **Edit > Preferences > Get Extensions** (or **Add-ons**).
+2. Click **Repositories** $\rightarrow$ **+ (Add Repository)**:
    * **Name**: `Personal Extensions`
    * **URL**: `https://m-dr.github.io/blender-extensions/index.json`
-5. Click **Save Preferences**.
-
-All extensions in this repository will now appear in your Blender extensions list with 1-click install and automatic update checking!
+3. Click **Save Preferences**.
 
 ---
 
-## Currently Hosted Extensions
+## Architecture
 
-* **Synchronize Workspaces (Patched Fork)** — `v1.15.0`
-  * Synchronizes 3D viewports across workspaces with fix for temporary maximized screens.
+This registry operates as a pure metadata catalog:
+* **Add-ons**: Downloaded directly from their individual GitHub Releases (zero storage bloat).
+* **Themes & Presets**: Can be hosted directly in `packages/` if desired.
+* **Large AI Packages**: Supported via Cloudflare R2 or direct CDN links.
 
----
-
-## Adding New Extensions
-
-See [AGENTS.md](AGENTS.md) for instructions on registering new add-ons.
+See [AGENTS.md](AGENTS.md) for full instructions on adding new extensions.

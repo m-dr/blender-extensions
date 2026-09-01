@@ -9,7 +9,7 @@
       "version": "1.15.0",
       "type": "add-on",
       "blender_version_min": "4.2.0",
-      "archive_url": "https://m-dr.github.io/blender-extensions/packages/synchronize_workspaces-1.15.0.zip",
+      "archive_url": "https://github.com/m-dr/blender-sync-workspaces/releases/download/v1.15.0/synchronize_workspaces-1.15.0.zip",
       "archive_hash": "sha256:e39ca86e60361595a0915d81c99fffd94b4f8e70d6a180f592fbe9359e67b7f1",
       "archive_size": 16727,
       "maintainer": "MultLabs / m-dr",

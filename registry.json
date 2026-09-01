@@ -17,7 +17,7 @@
         "3D View",
         "User Interface"
       ],
-      "package_file": "synchronize_workspaces-1.15.0.zip",
+      "archive_url": "https://github.com/m-dr/blender-sync-workspaces/releases/download/v1.15.0/synchronize_workspaces-1.15.0.zip",
       "website": "https://github.com/m-dr/blender-sync-workspaces"
     }
   ]
