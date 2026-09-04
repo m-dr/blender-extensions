@@ -109,6 +109,24 @@
       "website": ""
     },
     {
+      "id": "drcl_md",
+      "schema_version": "1.0.0",
+      "name": "DRCL (MD Mod)",
+      "tagline": "Dracula-inspired dark theme tuned for Blender 5.2+ (based on DRCL by 1D_Inc / Paul Kotelevets)",
+      "version": "1.0.0",
+      "type": "theme",
+      "blender_version_min": "5.2.0",
+      "maintainer": "MD <m-dr>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "tags": [],
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.1.0/drcl_md-1.0.0.zip",
+      "archive_size": 5200,
+      "archive_hash": "sha256:de118e9c006c040980d4024985b82aa2de002fcc674681a50df437e952c0dc4a",
+      "website": "https://github.com/m-dr/blender-themes"
+    },
+    {
       "id": "metaseq_md",
       "schema_version": "1.0.0",
       "name": "Metasequoia (MD Mod)",
