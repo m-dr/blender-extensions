@@ -23,6 +23,28 @@
       "website": "https://github.com/m-dr/fcpxml_import"
     },
     {
+      "id": "frame_range_manager",
+      "schema_version": "1.0.0",
+      "name": "Frame Range Manager",
+      "tagline": "Store, manage, edit, and restore named frame ranges shared across all scenes",
+      "version": "0.1.1",
+      "type": "add-on",
+      "blender_version_min": "4.2.0",
+      "maintainer": "MD <m-dr>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "tags": [
+        "Animation",
+        "Sequencer",
+        "User Interface"
+      ],
+      "archive_url": "https://github.com/m-dr/blender-frame-range-manager/releases/download/v0.1.1/frame_range_manager-0.1.1.zip",
+      "archive_size": 3223,
+      "archive_hash": "sha256:5259661f41b547e13f0e1aa1eab981c27ed45e914cd57f58b426c5d3fd6e9a7d",
+      "website": "https://github.com/m-dr/blender-frame-range-manager"
+    },
+    {
       "id": "noise_wiggler",
       "schema_version": "1.0.0",
       "name": "Noise Wiggler",
@@ -85,6 +107,60 @@
       "archive_size": 16727,
       "archive_hash": "sha256:e39ca86e60361595a0915d81c99fffd94b4f8e70d6a180f592fbe9359e67b7f1",
       "website": ""
+    },
+    {
+      "id": "drcl_md",
+      "schema_version": "1.0.0",
+      "name": "DRCL (MD Mod)",
+      "tagline": "Dracula-inspired dark theme tuned for Blender 5.2+ (based on DRCL by 1D_Inc / Paul Kotelevets)",
+      "version": "1.0.0",
+      "type": "theme",
+      "blender_version_min": "5.2.0",
+      "maintainer": "MD <m-dr>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "tags": [],
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.1.0/drcl_md-1.0.0.zip",
+      "archive_size": 5200,
+      "archive_hash": "sha256:de118e9c006c040980d4024985b82aa2de002fcc674681a50df437e952c0dc4a",
+      "website": "https://github.com/m-dr/blender-themes"
+    },
+    {
+      "id": "metaseq_md",
+      "schema_version": "1.0.0",
+      "name": "Metasequoia (MD Mod)",
+      "tagline": "Metasequoia-inspired light neutral grey theme tuned for Blender 5.2+",
+      "version": "1.0.0",
+      "type": "theme",
+      "blender_version_min": "5.2.0",
+      "maintainer": "MD <m-dr>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "tags": [],
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.1.0/metaseq_md-1.0.0.zip",
+      "archive_size": 5570,
+      "archive_hash": "sha256:6fd8ddce716e9cd3ce6f0b18531b22ac3ba3de868b83c56f04147041de41de98",
+      "website": "https://github.com/m-dr/blender-themes"
+    },
+    {
+      "id": "midnight_md",
+      "schema_version": "1.0.0",
+      "name": "Midnight (MD Mod)",
+      "tagline": "Deep midnight blue dark theme tuned for Blender 5.2+ (based on Midnight by kame404)",
+      "version": "1.0.0",
+      "type": "theme",
+      "blender_version_min": "5.2.0",
+      "maintainer": "MD <m-dr>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "tags": [],
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.1.0/midnight_md-1.0.0.zip",
+      "archive_size": 5601,
+      "archive_hash": "sha256:3634b9972842911711488a1724a2c8261bacb4e9c6dccec80da856754ec00032",
+      "website": "https://github.com/m-dr/blender-themes"
     }
   ]
 }
