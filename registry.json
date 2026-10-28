@@ -121,9 +121,9 @@
         "SPDX:GPL-3.0-or-later"
       ],
       "tags": [],
-      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.1.0/drcl_md-1.0.0.zip",
-      "archive_size": 5200,
-      "archive_hash": "sha256:de118e9c006c040980d4024985b82aa2de002fcc674681a50df437e952c0dc4a",
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.2.0/drcl_md-1.0.0.zip",
+      "archive_size": 5173,
+      "archive_hash": "sha256:2e6b83530fddfdd534f50d2cca9ba28c6e3743ed30744ac9fc643c7c622b06f9",
       "website": "https://github.com/m-dr/blender-themes"
     },
     {
@@ -139,9 +139,9 @@
         "SPDX:GPL-3.0-or-later"
       ],
       "tags": [],
-      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.1.0/metaseq_md-1.0.0.zip",
-      "archive_size": 5570,
-      "archive_hash": "sha256:6fd8ddce716e9cd3ce6f0b18531b22ac3ba3de868b83c56f04147041de41de98",
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.2.0/metaseq_md-1.0.0.zip",
+      "archive_size": 5528,
+      "archive_hash": "sha256:4f1971b071f95fa32bfd922285d8f0bba0f4fa812ff66384c4ad88020d2a0a49",
       "website": "https://github.com/m-dr/blender-themes"
     },
     {
@@ -157,9 +157,27 @@
         "SPDX:GPL-3.0-or-later"
       ],
       "tags": [],
-      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.1.0/midnight_md-1.0.0.zip",
-      "archive_size": 5601,
-      "archive_hash": "sha256:3634b9972842911711488a1724a2c8261bacb4e9c6dccec80da856754ec00032",
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.2.0/midnight_md-1.0.0.zip",
+      "archive_size": 5571,
+      "archive_hash": "sha256:4184d4a4654710d7d289d2a14f3a3da2f3ae4fa2400f61caefa618c9b6943a73",
+      "website": "https://github.com/m-dr/blender-themes"
+    },
+    {
+      "id": "vodi_white_md",
+      "schema_version": "1.0.0",
+      "name": "Vodi White (MD Mod)",
+      "tagline": "Clean modern high-contrast white light theme tuned for Blender 5.2+",
+      "version": "1.0.0",
+      "type": "theme",
+      "blender_version_min": "5.2.0",
+      "maintainer": "MD <m-dr>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "tags": [],
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.2.0/vodi_white_md-1.0.0.zip",
+      "archive_size": 5392,
+      "archive_hash": "sha256:9edff532d52b43430496f502914b12f8325ac449090db39fa860179511478440",
       "website": "https://github.com/m-dr/blender-themes"
     }
   ]
