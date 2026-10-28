@@ -85,9 +85,21 @@ def main():
             "archive_size": archive_size,
             "maintainer": ext.get("maintainer", ""),
             "license": ext.get("license", ["SPDX:GPL-3.0-or-later"]),
-            "tags": ext.get("tags", []),
-            "website": ext.get("website", ""),
         }
+
+        tags = ext.get("tags", [])
+        if not tags and ext_type == "theme":
+            tags = ["Theme"]
+        if tags:
+            entry["tags"] = tags
+
+        website = ext.get("website", "").strip()
+        if not website and "github.com" in archive_url:
+            parts = archive_url.split("/")
+            if len(parts) >= 5:
+                website = f"https://github.com/{parts[3]}/{parts[4]}"
+        if website:
+            entry["website"] = website
 
         if "blender_version_max" in ext:
             entry["blender_version_max"] = ext["blender_version_max"]

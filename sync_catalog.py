@@ -96,6 +96,10 @@ def inspect_release_asset(asset):
         with z.open(manifest_name) as mf:
             manifest = tomllib.load(mf)
 
+    tags = manifest.get("tags", [])
+    if not tags and manifest.get("type", "add-on") == "theme":
+        tags = ["Theme"]
+
     ext_entry = {
         "id": manifest["id"],
         "schema_version": manifest.get("schema_version", "1.0.0"),
@@ -106,12 +110,21 @@ def inspect_release_asset(asset):
         "blender_version_min": manifest.get("blender_version_min", "5.2.0"),
         "maintainer": manifest.get("maintainer", ""),
         "license": manifest.get("license", ["SPDX:GPL-3.0-or-later"]),
-        "tags": manifest.get("tags", []),
         "archive_url": download_url,
         "archive_size": archive_size,
         "archive_hash": archive_hash,
-        "website": manifest.get("website", "")
     }
+
+    if tags:
+        ext_entry["tags"] = tags
+
+    website = manifest.get("website", "").strip()
+    if not website and "github.com" in download_url:
+        parts = download_url.split("/")
+        if len(parts) >= 5:
+            website = f"https://github.com/{parts[3]}/{parts[4]}"
+    if website:
+        ext_entry["website"] = website
 
     if "blender_version_max" in manifest:
         ext_entry["blender_version_max"] = manifest["blender_version_max"]

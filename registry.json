@@ -106,7 +106,7 @@
       "archive_url": "https://github.com/m-dr/blender-sync-workspaces/releases/download/v1.15.0/synchronize_workspaces-1.15.0.zip",
       "archive_size": 16727,
       "archive_hash": "sha256:e39ca86e60361595a0915d81c99fffd94b4f8e70d6a180f592fbe9359e67b7f1",
-      "website": ""
+      "website": "https://github.com/m-dr/blender-sync-workspaces"
     },
     {
       "id": "drcl_md",
@@ -120,7 +120,9 @@
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "tags": [],
+      "tags": [
+        "Theme"
+      ],
       "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.2.0/drcl_md-1.0.0.zip",
       "archive_size": 5173,
       "archive_hash": "sha256:2e6b83530fddfdd534f50d2cca9ba28c6e3743ed30744ac9fc643c7c622b06f9",
@@ -138,7 +140,9 @@
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "tags": [],
+      "tags": [
+        "Theme"
+      ],
       "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.2.0/metaseq_md-1.0.0.zip",
       "archive_size": 5528,
       "archive_hash": "sha256:4f1971b071f95fa32bfd922285d8f0bba0f4fa812ff66384c4ad88020d2a0a49",
@@ -156,7 +160,9 @@
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "tags": [],
+      "tags": [
+        "Theme"
+      ],
       "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.2.0/midnight_md-1.0.0.zip",
       "archive_size": 5571,
       "archive_hash": "sha256:4184d4a4654710d7d289d2a14f3a3da2f3ae4fa2400f61caefa618c9b6943a73",
@@ -174,7 +180,9 @@
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "tags": [],
+      "tags": [
+        "Theme"
+      ],
       "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.2.0/vodi_white_md-1.0.0.zip",
       "archive_size": 5392,
       "archive_hash": "sha256:9edff532d52b43430496f502914b12f8325ac449090db39fa860179511478440",
