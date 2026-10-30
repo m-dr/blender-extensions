@@ -13,13 +13,13 @@
       "license": [
         "SPDX:GPL-2.0-or-later"
       ],
+      "archive_url": "https://github.com/m-dr/blender-fcpxml-import/releases/download/v1.2.0/fcpxml_import-1.2.0.zip",
+      "archive_size": 21271,
+      "archive_hash": "sha256:093407694ca2f167f71c964fefbdd67c267465e85f0bb1a17626fa53dacf1363",
       "tags": [
         "Import-Export",
         "Sequencer"
       ],
-      "archive_url": "https://github.com/m-dr/blender-fcpxml-import/releases/download/v1.2.0/fcpxml_import-1.2.0.zip",
-      "archive_size": 21271,
-      "archive_hash": "sha256:093407694ca2f167f71c964fefbdd67c267465e85f0bb1a17626fa53dacf1363",
       "website": "https://github.com/m-dr/fcpxml_import"
     },
     {
@@ -34,14 +34,14 @@
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
+      "archive_url": "https://github.com/m-dr/blender-frame-range-manager/releases/download/v0.1.1/frame_range_manager-0.1.1.zip",
+      "archive_size": 3223,
+      "archive_hash": "sha256:5259661f41b547e13f0e1aa1eab981c27ed45e914cd57f58b426c5d3fd6e9a7d",
       "tags": [
         "Animation",
         "Sequencer",
         "User Interface"
       ],
-      "archive_url": "https://github.com/m-dr/blender-frame-range-manager/releases/download/v0.1.1/frame_range_manager-0.1.1.zip",
-      "archive_size": 3223,
-      "archive_hash": "sha256:5259661f41b547e13f0e1aa1eab981c27ed45e914cd57f58b426c5d3fd6e9a7d",
       "website": "https://github.com/m-dr/blender-frame-range-manager"
     },
     {
@@ -56,14 +56,14 @@
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
+      "archive_url": "https://github.com/m-dr/blender-noise-wiggler/releases/download/v0.1.3/noise_wiggler-0.1.3.zip",
+      "archive_size": 12712,
+      "archive_hash": "sha256:fe401824c150201dbc159ee83f69b3453a418cd842515a305876cb391a8c97cb",
       "tags": [
         "Animation",
         "Object",
         "Rigging"
       ],
-      "archive_url": "https://github.com/m-dr/blender-noise-wiggler/releases/download/v0.1.3/noise_wiggler-0.1.3.zip",
-      "archive_size": 12712,
-      "archive_hash": "sha256:fe401824c150201dbc159ee83f69b3453a418cd842515a305876cb391a8c97cb",
       "website": "https://github.com/m-dr/blender-noise-wiggler"
     },
     {
@@ -78,13 +78,13 @@
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
+      "archive_url": "https://github.com/m-dr/blender-object-wiggle/releases/download/v0.1.4/object_wiggle-0.1.4.zip",
+      "archive_size": 8484,
+      "archive_hash": "sha256:ac4832c2216b180175ce3ade29edfe9977b54b0919e4b327037fa27ff3221cde",
       "tags": [
         "Animation",
         "Object"
       ],
-      "archive_url": "https://github.com/m-dr/blender-object-wiggle/releases/download/v0.1.4/object_wiggle-0.1.4.zip",
-      "archive_size": 8484,
-      "archive_hash": "sha256:ac4832c2216b180175ce3ade29edfe9977b54b0919e4b327037fa27ff3221cde",
       "website": "https://github.com/m-dr/blender-object-wiggle"
     },
     {
@@ -99,13 +99,13 @@
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
+      "archive_url": "https://github.com/m-dr/blender-sync-workspaces/releases/download/v1.15.0/synchronize_workspaces-1.15.0.zip",
+      "archive_size": 16727,
+      "archive_hash": "sha256:e39ca86e60361595a0915d81c99fffd94b4f8e70d6a180f592fbe9359e67b7f1",
       "tags": [
         "3D View",
         "User Interface"
       ],
-      "archive_url": "https://github.com/m-dr/blender-sync-workspaces/releases/download/v1.15.0/synchronize_workspaces-1.15.0.zip",
-      "archive_size": 16727,
-      "archive_hash": "sha256:e39ca86e60361595a0915d81c99fffd94b4f8e70d6a180f592fbe9359e67b7f1",
       "website": "https://github.com/m-dr/blender-sync-workspaces"
     },
     {
@@ -120,12 +120,12 @@
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v5.2-2026.10.30/drcl_md-1.0.0.zip",
+      "archive_size": 5173,
+      "archive_hash": "sha256:2e6b83530fddfdd534f50d2cca9ba28c6e3743ed30744ac9fc643c7c622b06f9",
       "tags": [
         "Theme"
       ],
-      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.2.0/drcl_md-1.0.0.zip",
-      "archive_size": 5173,
-      "archive_hash": "sha256:2e6b83530fddfdd534f50d2cca9ba28c6e3743ed30744ac9fc643c7c622b06f9",
       "website": "https://github.com/m-dr/blender-themes"
     },
     {
@@ -140,12 +140,12 @@
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v5.2-2026.10.30/metaseq_md-1.0.0.zip",
+      "archive_size": 5528,
+      "archive_hash": "sha256:4f1971b071f95fa32bfd922285d8f0bba0f4fa812ff66384c4ad88020d2a0a49",
       "tags": [
         "Theme"
       ],
-      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.2.0/metaseq_md-1.0.0.zip",
-      "archive_size": 5528,
-      "archive_hash": "sha256:4f1971b071f95fa32bfd922285d8f0bba0f4fa812ff66384c4ad88020d2a0a49",
       "website": "https://github.com/m-dr/blender-themes"
     },
     {
@@ -160,19 +160,19 @@
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v5.2-2026.10.30/midnight_md-1.0.0.zip",
+      "archive_size": 5571,
+      "archive_hash": "sha256:4184d4a4654710d7d289d2a14f3a3da2f3ae4fa2400f61caefa618c9b6943a73",
       "tags": [
         "Theme"
       ],
-      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.2.0/midnight_md-1.0.0.zip",
-      "archive_size": 5571,
-      "archive_hash": "sha256:4184d4a4654710d7d289d2a14f3a3da2f3ae4fa2400f61caefa618c9b6943a73",
       "website": "https://github.com/m-dr/blender-themes"
     },
     {
-      "id": "vodi_white_md",
+      "id": "rain_cloud_md",
       "schema_version": "1.0.0",
-      "name": "Vodi White (MD Mod)",
-      "tagline": "Clean modern high-contrast white light theme tuned for Blender 5.2+",
+      "name": "Rain Cloud (MD Mod)",
+      "tagline": "Soft silver skies theme tuned for high contrast in Blender 5.2+",
       "version": "1.0.0",
       "type": "theme",
       "blender_version_min": "5.2.0",
@@ -180,12 +180,32 @@
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v5.2-2026.10.30/rain_cloud_md-1.0.0.zip",
+      "archive_size": 5509,
+      "archive_hash": "sha256:353b07833e4b2830a1ea5713fb7ca3ad90577f15d3193c0890fa4cdf41b992e7",
       "tags": [
         "Theme"
       ],
-      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v1.2.0/vodi_white_md-1.0.0.zip",
-      "archive_size": 5392,
-      "archive_hash": "sha256:9edff532d52b43430496f502914b12f8325ac449090db39fa860179511478440",
+      "website": "https://github.com/m-dr/blender-themes"
+    },
+    {
+      "id": "vodi_white_md",
+      "schema_version": "1.0.0",
+      "name": "Vodi White (MD Mod)",
+      "tagline": "Clean modern high-contrast white light theme tuned for Blender 5.2+",
+      "version": "1.0.1",
+      "type": "theme",
+      "blender_version_min": "5.2.0",
+      "maintainer": "MD <m-dr>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "archive_url": "https://github.com/m-dr/blender-themes/releases/download/v5.2-2026.10.30/vodi_white_md-1.0.1.zip",
+      "archive_size": 5405,
+      "archive_hash": "sha256:2000a6830f38334d41be64a168ad3f50f9d663d5d1c45725dea320352dde0d92",
+      "tags": [
+        "Theme"
+      ],
       "website": "https://github.com/m-dr/blender-themes"
     }
   ]
