@@ -12,6 +12,7 @@
     "m-dr/blender-fcpxml-import",
     "m-dr/blender-object-wiggle",
     "m-dr/blender-noise-wiggler",
-    "m-dr/blender-themes"
+    "m-dr/blender-themes",
+    "m-dr/blender-scene-version-browser"
   ]
 }

@@ -88,6 +88,27 @@
       "website": "https://github.com/m-dr/blender-object-wiggle"
     },
     {
+      "id": "scene_version_browser",
+      "schema_version": "1.0.0",
+      "name": "Scene Version Browser",
+      "tagline": "Filter scene sequences and display only the latest version of incremental saves in the File Browser",
+      "version": "0.1.0",
+      "type": "add-on",
+      "blender_version_min": "5.2.0",
+      "maintainer": "MD <m-dr>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "archive_url": "https://github.com/m-dr/blender-scene-version-browser/releases/download/v0.1.0/scene_version_browser-0.1.0.zip",
+      "archive_size": 9357,
+      "archive_hash": "sha256:1766b9b5a5a97edd59c97d61ff3f39d439352ef6713f59255125d1e904b845e6",
+      "tags": [
+        "Pipeline",
+        "System"
+      ],
+      "website": "https://github.com/m-dr/blender-scene-version-browser"
+    },
+    {
       "id": "synchronize_workspaces",
       "schema_version": "1.0.0",
       "name": "Synchronize Workspaces",
