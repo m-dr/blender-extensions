@@ -100,8 +100,8 @@
         "SPDX:GPL-3.0-or-later"
       ],
       "archive_url": "https://github.com/m-dr/blender-scene-version-browser/releases/download/v0.1.0/scene_version_browser-0.1.0.zip",
-      "archive_size": 9357,
-      "archive_hash": "sha256:1766b9b5a5a97edd59c97d61ff3f39d439352ef6713f59255125d1e904b845e6",
+      "archive_size": 7981,
+      "archive_hash": "sha256:84507fa8d0fb8e177b74eab5ec50530208178ec3ab4640ed12e6aa6cd4dc77e5",
       "tags": [
         "Pipeline",
         "System"
