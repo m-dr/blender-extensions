@@ -6,19 +6,19 @@
       "schema_version": "1.0.0",
       "name": "Add-on Repository Filter",
       "tagline": "Filter installed add-ons in preferences by extension repository",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "type": "add-on",
       "blender_version_min": "5.2.0",
       "maintainer": "MD <m-dr>",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "archive_url": "https://github.com/m-dr/blender-addon-repo-filter/releases/download/v0.1.0/addon_repo_filter-0.1.0.zip",
-      "archive_size": 3056,
-      "archive_hash": "sha256:94595366d7345fea345dc60b72cbd23a46d0ce71858759d457b1c5f249dd8b49",
+      "archive_url": "https://github.com/m-dr/blender-addon-repo-filter/releases/download/v0.1.1/addon_repo_filter-0.1.1.zip",
+      "archive_size": 3064,
+      "archive_hash": "sha256:c7b3ac4ff8c0632f8bec53a145871299f444203205dd851033295468c6f2e06b",
       "tags": [
         "System",
-        "Interface"
+        "User Interface"
       ],
       "website": "https://github.com/m-dr/blender-addon-repo-filter"
     },
@@ -26,38 +26,38 @@
       "id": "fcpxml_import",
       "schema_version": "1.0.0",
       "name": "FCPXML & XMEML Importer",
-      "tagline": "Imports FCP7 XML (.xmeml) and FCPX XML (.fcpxml) files preserving multi-track structure, retiming, markers, audio and text",
-      "version": "1.2.0",
+      "tagline": "Import FCPXML/XMEML with tracks, retiming, markers, audio",
+      "version": "1.2.1",
       "type": "add-on",
       "blender_version_min": "5.2.0",
       "maintainer": "tintwotin, Omniscye, Antigravity, m-dr",
       "license": [
         "SPDX:GPL-2.0-or-later"
       ],
-      "archive_url": "https://github.com/m-dr/blender-fcpxml-import/releases/download/v1.2.0/fcpxml_import-1.2.0.zip",
-      "archive_size": 21271,
-      "archive_hash": "sha256:093407694ca2f167f71c964fefbdd67c267465e85f0bb1a17626fa53dacf1363",
+      "archive_url": "https://github.com/m-dr/blender-fcpxml-import/releases/download/v1.2.1/fcpxml_import-1.2.1.zip",
+      "archive_size": 18410,
+      "archive_hash": "sha256:9e742e3bf1777aae8d64a29ab1630b6d2241dbf191acb706e720cc5e2bd48c0b",
       "tags": [
         "Import-Export",
         "Sequencer"
       ],
-      "website": "https://github.com/m-dr/fcpxml_import"
+      "website": "https://github.com/m-dr/blender-fcpxml-import"
     },
     {
       "id": "frame_range_manager",
       "schema_version": "1.0.0",
       "name": "Frame Range Manager",
-      "tagline": "Store, manage, edit, and restore named frame ranges shared across all scenes",
-      "version": "0.1.1",
+      "tagline": "Store, edit and restore named frame ranges across scenes",
+      "version": "0.1.2",
       "type": "add-on",
       "blender_version_min": "4.2.0",
       "maintainer": "MD <m-dr>",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "archive_url": "https://github.com/m-dr/blender-frame-range-manager/releases/download/v0.1.1/frame_range_manager-0.1.1.zip",
-      "archive_size": 3223,
-      "archive_hash": "sha256:5259661f41b547e13f0e1aa1eab981c27ed45e914cd57f58b426c5d3fd6e9a7d",
+      "archive_url": "https://github.com/m-dr/blender-frame-range-manager/releases/download/v0.1.2/frame_range_manager-0.1.2.zip",
+      "archive_size": 4336,
+      "archive_hash": "sha256:601ed64891a0ba7b7eb4f0c8e84cd852c690c3c90770f4a5b322a509fd041f22",
       "tags": [
         "Animation",
         "Sequencer",
@@ -69,17 +69,17 @@
       "id": "noise_wiggler",
       "schema_version": "1.0.0",
       "name": "Noise Wiggler",
-      "tagline": "Unified procedural noise animation for objects and armatures with spatial wave offsets, hierarchy curves, and seamless looping",
-      "version": "0.1.3",
+      "tagline": "Procedural noise animation for objects and armature bones",
+      "version": "0.1.4",
       "type": "add-on",
       "blender_version_min": "5.2.0",
       "maintainer": "m-dr",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "archive_url": "https://github.com/m-dr/blender-noise-wiggler/releases/download/v0.1.3/noise_wiggler-0.1.3.zip",
-      "archive_size": 12712,
-      "archive_hash": "sha256:fe401824c150201dbc159ee83f69b3453a418cd842515a305876cb391a8c97cb",
+      "archive_url": "https://github.com/m-dr/blender-noise-wiggler/releases/download/v0.1.4/noise_wiggler-0.1.4.zip",
+      "archive_size": 12663,
+      "archive_hash": "sha256:81a8b2a4631e3bce97f3d08dd1f8460fa2244c39d5308ce103b54a1370db71c2",
       "tags": [
         "Animation",
         "Object",
@@ -91,17 +91,17 @@
       "id": "object_wiggle",
       "schema_version": "1.0.0",
       "name": "Object Wiggle",
-      "tagline": "Procedural noise transforms for objects with seamless loops, frame ranges, spatial offsets, multi-object editing and Blender 5.2 slotted action support",
-      "version": "0.1.4",
+      "tagline": "Procedural noise transforms with seamless loops and offsets",
+      "version": "0.1.5",
       "type": "add-on",
       "blender_version_min": "5.2.0",
       "maintainer": "m-dr",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "archive_url": "https://github.com/m-dr/blender-object-wiggle/releases/download/v0.1.4/object_wiggle-0.1.4.zip",
-      "archive_size": 8484,
-      "archive_hash": "sha256:ac4832c2216b180175ce3ade29edfe9977b54b0919e4b327037fa27ff3221cde",
+      "archive_url": "https://github.com/m-dr/blender-object-wiggle/releases/download/v0.1.5/object_wiggle-0.1.5.zip",
+      "archive_size": 8430,
+      "archive_hash": "sha256:fd634b7e4ce837d3c0e0216fb897ff00cfab6339cf4916f30367c37627c1b051",
       "tags": [
         "Animation",
         "Object"
@@ -112,17 +112,17 @@
       "id": "output_manager",
       "schema_version": "1.0.0",
       "name": "Output Manager",
-      "tagline": "Global presets for render output filepath, file formats, and encoding settings",
-      "version": "0.1.1",
+      "tagline": "Global render output filepath, format and encoding presets",
+      "version": "0.1.2",
       "type": "add-on",
       "blender_version_min": "5.2.0",
       "maintainer": "MD <m-dr>",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "archive_url": "https://github.com/m-dr/blender-output-manager/releases/download/v0.1.1/output_manager-0.1.1.zip",
-      "archive_size": 17968,
-      "archive_hash": "sha256:a89e01a69e1badff74187fdcac9bb21b2e3c5b59f504ea1493e706eca3458332",
+      "archive_url": "https://github.com/m-dr/blender-output-manager/releases/download/v0.1.2/output_manager-0.1.2.zip",
+      "archive_size": 18489,
+      "archive_hash": "sha256:b26cc8d167bf04da89f68ed44beea191717163786025ce9147a9a3ec2eb023b6",
       "tags": [
         "Render",
         "Pipeline",
@@ -134,17 +134,17 @@
       "id": "scene_version_browser",
       "schema_version": "1.0.0",
       "name": "Scene Version Browser",
-      "tagline": "Filter scene sequences and display only the latest version of incremental saves in the File Browser",
-      "version": "0.1.0",
+      "tagline": "Show only the latest version of incremental scene saves",
+      "version": "0.1.1",
       "type": "add-on",
       "blender_version_min": "5.2.0",
       "maintainer": "MD <m-dr>",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "archive_url": "https://github.com/m-dr/blender-scene-version-browser/releases/download/v0.1.0/scene_version_browser-0.1.0.zip",
-      "archive_size": 7981,
-      "archive_hash": "sha256:84507fa8d0fb8e177b74eab5ec50530208178ec3ab4640ed12e6aa6cd4dc77e5",
+      "archive_url": "https://github.com/m-dr/blender-scene-version-browser/releases/download/v0.1.1/scene_version_browser-0.1.1.zip",
+      "archive_size": 7962,
+      "archive_hash": "sha256:66547fe0cf66325e3e008e3a62fabcf1e917617da957dbe945eefb71facd89ea",
       "tags": [
         "Pipeline",
         "System"
@@ -156,16 +156,16 @@
       "schema_version": "1.0.0",
       "name": "Synchronize Workspaces",
       "tagline": "Synchronize 3D views between workspaces",
-      "version": "1.15.0",
+      "version": "1.15.1",
       "type": "add-on",
       "blender_version_min": "4.2.0",
       "maintainer": "Michael Soluyanov <to@multlabs.com>",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "archive_url": "https://github.com/m-dr/blender-sync-workspaces/releases/download/v1.15.0/synchronize_workspaces-1.15.0.zip",
-      "archive_size": 16727,
-      "archive_hash": "sha256:e39ca86e60361595a0915d81c99fffd94b4f8e70d6a180f592fbe9359e67b7f1",
+      "archive_url": "https://github.com/m-dr/blender-sync-workspaces/releases/download/v1.15.1/synchronize_workspaces-1.15.1.zip",
+      "archive_size": 16828,
+      "archive_hash": "sha256:9c7d68836dfb299aff73d0077039852a81f37617f068560880cde14feb8ba2b2",
       "tags": [
         "3D View",
         "User Interface"
