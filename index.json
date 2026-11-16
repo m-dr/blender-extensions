@@ -92,16 +92,16 @@
       "schema_version": "1.0.0",
       "name": "Object Wiggle",
       "tagline": "Procedural noise transforms with seamless loops and offsets",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "type": "add-on",
       "blender_version_min": "5.2.0",
       "maintainer": "m-dr",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "archive_url": "https://github.com/m-dr/blender-object-wiggle/releases/download/v0.1.5/object_wiggle-0.1.5.zip",
-      "archive_size": 8430,
-      "archive_hash": "sha256:fd634b7e4ce837d3c0e0216fb897ff00cfab6339cf4916f30367c37627c1b051",
+      "archive_url": "https://github.com/m-dr/blender-object-wiggle/releases/download/v0.1.6/object_wiggle-0.1.6.zip",
+      "archive_size": 8611,
+      "archive_hash": "sha256:2c416184454859d987efe10dac993cbfcf3eadf4a8d44431bf0f644b237dbbb9",
       "tags": [
         "Animation",
         "Object"
