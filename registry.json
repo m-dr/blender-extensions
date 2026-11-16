@@ -2,6 +2,27 @@
   "base_url": "https://m-dr.github.io/blender-extensions",
   "extensions": [
     {
+      "id": "addon_repo_filter",
+      "schema_version": "1.0.0",
+      "name": "Add-on Repository Filter",
+      "tagline": "Filter installed add-ons in preferences by extension repository",
+      "version": "0.1.0",
+      "type": "add-on",
+      "blender_version_min": "5.2.0",
+      "maintainer": "MD <m-dr>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "archive_url": "https://github.com/m-dr/blender-addon-repo-filter/releases/download/v0.1.0/addon_repo_filter-0.1.0.zip",
+      "archive_size": 3056,
+      "archive_hash": "sha256:94595366d7345fea345dc60b72cbd23a46d0ce71858759d457b1c5f249dd8b49",
+      "tags": [
+        "System",
+        "Interface"
+      ],
+      "website": "https://github.com/m-dr/blender-addon-repo-filter"
+    },
+    {
       "id": "fcpxml_import",
       "schema_version": "1.0.0",
       "name": "FCPXML & XMEML Importer",
