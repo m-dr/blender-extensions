@@ -6,16 +6,16 @@
       "schema_version": "1.0.0",
       "name": "Add-on Repository Filter",
       "tagline": "Filter installed add-ons in preferences by extension repository",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "type": "add-on",
       "blender_version_min": "5.2.0",
       "maintainer": "MD <m-dr>",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "archive_url": "https://github.com/m-dr/blender-addon-repo-filter/releases/download/v0.1.1/addon_repo_filter-0.1.1.zip",
-      "archive_size": 3064,
-      "archive_hash": "sha256:c7b3ac4ff8c0632f8bec53a145871299f444203205dd851033295468c6f2e06b",
+      "archive_url": "https://github.com/m-dr/blender-addon-repo-filter/releases/download/v0.1.2/addon_repo_filter-0.1.2.zip",
+      "archive_size": 4018,
+      "archive_hash": "sha256:c54b2a081f6b4605b1fdb64e43845763c2a390189f742fadec5b8d982185d73b",
       "tags": [
         "System",
         "User Interface"
@@ -135,16 +135,16 @@
       "schema_version": "1.0.0",
       "name": "Scene Version Browser",
       "tagline": "Show only the latest version of incremental scene saves",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "type": "add-on",
       "blender_version_min": "5.2.0",
       "maintainer": "MD <m-dr>",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "archive_url": "https://github.com/m-dr/blender-scene-version-browser/releases/download/v0.1.2/scene_version_browser-0.1.2.zip",
-      "archive_size": 7957,
-      "archive_hash": "sha256:7982f2fc4543381a1d0c4fcf91edb76a9e3f91c1c584e2c3b4a961a8b9f515ff",
+      "archive_url": "https://github.com/m-dr/blender-scene-version-browser/releases/download/v0.1.3/scene_version_browser-0.1.3.zip",
+      "archive_size": 8929,
+      "archive_hash": "sha256:58589669d92ff2eca1c30daff3a6bdc2b7db24340c4b0c79a4156bf3b4cbe750",
       "tags": [
         "Pipeline",
         "System"
