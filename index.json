@@ -113,16 +113,16 @@
       "schema_version": "1.0.0",
       "name": "Output Manager",
       "tagline": "Global presets for render output filepath, file formats, and encoding settings",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "type": "add-on",
       "blender_version_min": "5.2.0",
       "maintainer": "MD <m-dr>",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "archive_url": "https://github.com/m-dr/blender-output-manager/releases/download/v0.1.0/output_manager-0.1.0.zip",
-      "archive_size": 16062,
-      "archive_hash": "sha256:76e5f7d4920bbbcc3e1dd72cbfaf2f05a03d3356bc5194f7bf57fb66a98662c3",
+      "archive_url": "https://github.com/m-dr/blender-output-manager/releases/download/v0.1.1/output_manager-0.1.1.zip",
+      "archive_size": 17968,
+      "archive_hash": "sha256:a89e01a69e1badff74187fdcac9bb21b2e3c5b59f504ea1493e706eca3458332",
       "tags": [
         "Render",
         "Pipeline",
