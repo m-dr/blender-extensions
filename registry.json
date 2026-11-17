@@ -135,16 +135,16 @@
       "schema_version": "1.0.0",
       "name": "Scene Version Browser",
       "tagline": "Show only the latest version of incremental scene saves",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "type": "add-on",
       "blender_version_min": "5.2.0",
       "maintainer": "MD <m-dr>",
       "license": [
         "SPDX:GPL-3.0-or-later"
       ],
-      "archive_url": "https://github.com/m-dr/blender-scene-version-browser/releases/download/v0.1.6/scene_version_browser-0.1.6.zip",
-      "archive_size": 9175,
-      "archive_hash": "sha256:a69b53da6fb735c9348bb4e3eebbc940c7f44ffb69801beb48d78e1d71ae6207",
+      "archive_url": "https://github.com/m-dr/blender-scene-version-browser/releases/download/v0.1.7/scene_version_browser-0.1.7.zip",
+      "archive_size": 9447,
+      "archive_hash": "sha256:7e1922a8331da4452855d205725f5ac1f34e9f63ac66d6fdb5119d587098b96d",
       "tags": [
         "Pipeline",
         "System"
